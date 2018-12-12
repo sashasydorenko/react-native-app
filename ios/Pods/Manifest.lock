@@ -1,0 +1,41 @@
+PODS:
+  - GoogleMaps (2.1.1):
+    - GoogleMaps/Maps (= 2.1.1)
+  - GoogleMaps/Base (2.1.1)
+  - GoogleMaps/Maps (2.1.1):
+    - GoogleMaps/Base
+  - React (0.44.2):
+    - React/Core (= 0.44.2)
+  - React/Core (0.44.2):
+    - React/cxxreact
+    - Yoga (= 0.44.2.React)
+  - React/cxxreact (0.44.2):
+    - React/jschelpers
+  - React/jschelpers (0.44.2)
+  - RNDeviceInfo (0.9.3):
+    - React
+  - Yoga (0.44.2.React)
+
+DEPENDENCIES:
+  - GoogleMaps
+  - React (from `../node_modules/react-native`)
+  - RNDeviceInfo (from `../node_modules/react-native-device-info`)
+  - Yoga (from `../node_modules/react-native/ReactCommon/yoga/Yoga.podspec`)
+
+EXTERNAL SOURCES:
+  React:
+    :path: ../node_modules/react-native
+  RNDeviceInfo:
+    :path: ../node_modules/react-native-device-info
+  Yoga:
+    :path: ../node_modules/react-native/ReactCommon/yoga/Yoga.podspec
+
+SPEC CHECKSUMS:
+  GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
+  React: 68b26ea7726bf0731e954db0187fd8b749ec2863
+  RNDeviceInfo: dc3cbee96cd2392cf03d6ff6191dc15f1606a166
+  Yoga: 735d941f871ac6c4853334c164c424e013a79a17
+
+PODFILE CHECKSUM: 42f17b774a08122f5a5484894205dbc2299815f0
+
+COCOAPODS: 1.3.1
